@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".AlumnoActivity">
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/idTitAlumno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:padding="20dp"
+        android:text="@string/txt_registro_de_alumno"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/idLabelNombres"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:text="@string/txt_nombres"
+        android:textSize="16sp"
+        android:textStyle="bold"/>
+
+
+    <EditText
+        android:id="@+id/idTextNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="8"
+        android:hint="@string/txt_hint_nombres"
+        android:inputType="textPersonName"
+        android:drawableStart="@drawable/ic_txtnombres"
+        android:autofillHints="" />
+
+    <TextView
+        android:id="@+id/idLabelApellidos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:text="@string/txt_apellidos"
+        android:textSize="16sp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/idtTextApellidos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="8"
+        android:hint="@string/txt_hint_apellidos"
+        android:inputType="textPersonName"
+        android:drawableStart="@drawable/ic_txtapellidos"
+        android:autofillHints="" />
+
+    <TextView
+        android:id="@+id/idLabelDni"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:text="@string/txt_dni"
+        android:textSize="16sp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/idTextDni"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="8"
+        android:hint="@string/txt_hint_dni"
+        android:inputType="number"
+        android:drawableStart="@drawable/ic_txtdni"
+        android:autofillHints="" />
+
+    <TextView
+        android:id="@+id/idLabelCorreo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:text="@string/txt_correo"
+        android:textSize="16sp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/idTextCorreo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="8"
+        android:hint="@string/txt_hint_correo"
+        android:inputType="textEmailAddress"
+        android:drawableStart="@drawable/ic_txtemail"
+        android:autofillHints="" />
+
+    <TextView
+        android:id="@+id/idLabelFechaNac"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:text="@string/txt_fecha_de_nacimiento"
+        android:textSize="16sp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/idTextFechaNac"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="8"
+        android:hint="@string/txt_hint_fechanac"
+        android:inputType="date"
+        android:drawableStart="@drawable/ic_txtfecha"
+        android:autofillHints="" />
+
+    <Button
+        android:id="@+id/idBotonAlumno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginTop="25dp"
+        android:text="@string/txt_btn_libro_enviar" />
+
+</LinearLayout>
+</ScrollView>
+</androidx.appcompat.widget.LinearLayoutCompat>

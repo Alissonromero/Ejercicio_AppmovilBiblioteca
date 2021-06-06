@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Practica3_RomeroAlisson</string>
+    <string name="txt_menu">Menu</string>
+    <string name="txt_menu_alumno">Registro de Alumnos</string>
+    <string name="txt_mantenimiento_alumno">Listado de alumnos</string>
+    <string name="txt_registro_de_alumno">Registro de Alumno</string>
+    <string name="txt_hint_nombres">Juan Ernesto</string>
+    <string name="txt_nombres">Nombres :</string>
+    <string name="txt_apellidos">Apellidos:</string>
+    <string name="txt_hint_apellidos">Perez Cabrera</string>
+    <string name="txt_dni">Dni :</string>
+    <string name="txt_hint_dni">12345678</string>
+    <string name="txt_correo">Correo :</string>
+    <string name="txt_hint_correo">micorreo@email.com</string>
+    <string name="txt_fecha_de_nacimiento">Fecha de Nacimiento :</string>
+    <string name="txt_hint_fechanac">aaaa-MM-dd</string>
+    <string name="txt_btn_libro_enviar">ENVIAR</string>
+    <string name="actualiza_alumno">Lista de Alumnos</string>
+</resources>
